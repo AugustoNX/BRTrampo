@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 
 class PerfilPage extends StatelessWidget {
+  
   const PerfilPage({super.key});
 
   static const Color verde = Color(0xFF2F4F3F);
+
   static const Color laranja = Color(0xFFF97316);
+
   static const Color fundo = Color(0xFFE5E7E6);
 
   @override
@@ -194,6 +197,7 @@ class PerfilPage extends StatelessWidget {
               ),
             ),
           ),
+
           const Padding(
             padding: EdgeInsets.all(6),
             child: Text(

@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   static const Color verde = Color(0xFF2F4F3F);
+
   static const Color laranja = Color(0xFFF97316);
 
   @override
@@ -37,7 +38,9 @@ class MyApp extends StatelessWidget {
       // ROTAS
       routes: {
         '/login': (context) => const LoginPage(),
+
         '/home': (context) => const HomePage(),
+        
         '/perfil': (context) => const PerfilPage(),
       },
     );
